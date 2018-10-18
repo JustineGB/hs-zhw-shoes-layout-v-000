@@ -35,7 +35,7 @@
 }
 
 .col-container {
-    display: relative;
+    display: flex;
     width: 100%; /* Set full-width to expand the whole page */
 }
 
