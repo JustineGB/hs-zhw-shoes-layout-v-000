@@ -35,16 +35,13 @@
   height: 100%;
 }
 
-.col-2 {
-  float: left;
-  width: 60%;
-  height: 100%;
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
 }
 
-.col-3 {
-  float: left;
-  width: 30%;
-  height: 100%;
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
 }
 
 [class*="col-"] {
