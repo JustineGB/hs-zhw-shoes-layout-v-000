@@ -41,7 +41,7 @@
 }
 
 .col-a {
-    flex: 1;
+    flex: 0;
     padding: 20px;
 }
 
