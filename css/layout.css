@@ -40,7 +40,7 @@
 }
 
 .col-3 {
-width: 33%;
+  width: 33%;
 }
 
 [class*="col-"] {
