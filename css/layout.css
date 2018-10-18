@@ -45,7 +45,7 @@
 
 .col-b {
   flex: 1;
-  padding: 0 0 510px 0;
+  padding: 0 0 10px 0;
 }
 
 [class*="col-"] {
