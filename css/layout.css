@@ -40,9 +40,14 @@
     width: 100%; /* Set full-width to expand the whole page */
 }
 
-.col {
+.col-a {
     flex: 1;
-    padding: 16px;
+    padding: 0;
+}
+
+.col-b {
+  flex: 1;
+  padding: 0;
 }
 
 [class*="col-"] {
@@ -52,17 +57,3 @@
 .first {
   margin-left: 0%;
 }
-
-  .f-grid {
-    display: flex;
-    justify-content: space-between;
-    margin-left: -1rem;
-    flex-flow: row wrap;
-  }
-
-  .f-grid-cell {
-    flex: 1 0;
-    background-color: #333;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-  }
