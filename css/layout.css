@@ -36,12 +36,13 @@
 }
 
 .col-container {
-    display: table; /* Make the container element behave like a table */
+    display: flex;
     width: 100%; /* Set full-width to expand the whole page */
 }
 
 .col {
-    display: table-cell; /* Make elements inside the container behave like table cells */
+    flex: 1;
+    padding: 16px;
 }
 
 [class*="col-"] {
