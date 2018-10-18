@@ -22,32 +22,28 @@
   clear: both;
 }
 
-/* Positioning Classes */
 /*////Layout////*/
 
-* {
-  box-sizing: border-hox;
-}
-
-.wrappper {
-width: 960px;
-margin: 0 auto;
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
 }
 
 .col-1 {
   float: left;
-  width: 30%;
-  height: auto;
-  background: #ccc;
+  width: 32%;
 }
 
-.two {
-float: left;
-width: 30%;
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
 }
 
 [class*="col-"] {
-margin-left: 2%;
+  margin-left: 2%;
 }
 
 .first {
