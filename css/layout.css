@@ -37,11 +37,11 @@
 
 .col-container {
     display: flex;
-    width: 99%; /* Set full-width to expand the whole page */
+    width: 100%; /* Set full-width to expand the whole page */
 }
 
 .col-a {
-    flex: 2;
+    flex: 1;
     padding: 0;
 }
 
